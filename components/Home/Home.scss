@@ -1,0 +1,49 @@
+.body{
+    display: flex;
+    background-color: yellow;
+    height: 40vh;
+    margin-top: 30vh;
+
+    &-1{
+        width: 70%;
+        background-color: rgb(248, 125, 125);
+
+        // h1{
+        //     text-align: center;
+        // }
+    }
+
+    &-2{
+        width: 30%;
+        background-color: blue;
+    }
+}
+
+.body-1 > h1{
+    text-align: center;
+}
+
+.body-1 > p{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    animation: typing 3s forwards;
+    font-size: 1.6rem;
+    width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  .body-2 > div{
+      font-size: 25px;
+      text-align: center;
+      height: 20%;
+      color: white;
+  }
+
+  #body-2-h1{
+      font-weight: 600;
+      align-items: center;
+  }

@@ -1,0 +1,59 @@
+.option-box{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 600px;
+    margin: 4vh 0px;
+    margin-left: 60px;
+}
+
+.question{
+    background-color: rgba(0, 0, 255, 0.692);
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    font-weight: 650;
+    border-radius: 45px;
+    align-items: center;
+    padding-top: .4vh;
+    /* padding-left: 160px; */
+    height: 10vh;
+    /* padding: 5px; */
+    /* grid-template-columns: auto auto ; */
+    /* gap: 100px; */
+
+    display: flex;
+    margin: 0px 15px;
+    border: 3px solid white;
+    font-size: 28px;
+    /* font-family: 'Noto Serif', serif; */
+    border-color: black;
+
+}
+
+.question p{
+    text-align: center;
+    margin: 0% auto;
+    /* padding: 0px ; */
+}
+body{
+    cursor: url('https://www.google.com/search?q=trophy+images&rlz=1C1CHZN_enIN976IN976&sxsrf=ALiCzsb4aMecEeM6aA9seJith8qmfg5Sjg:1652105088469&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjz6reHy9L3AhU8TGwGHRC4D60Q_AUoAXoECAEQAw&biw=1536&bih=714&dpr=1.25#imgrc=CFGIpLjZ3KXliM');
+
+}
+
+.option{
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.option{
+    width: 20vw;
+    margin: 10px 0px;
+    height: 6vh;
+    border-radius: 25px;
+    border: 3px solid yellow;
+    padding-left: 15px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    height: 6vh;
+    color: white;
+}
